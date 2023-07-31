@@ -185,3 +185,84 @@ footer div ul a:hover {
   background-color: black;
   color: white;
 }
+
+@media (max-width: 450px) {
+  header {
+    padding: 30px 50px;
+  }
+  .start {
+    width: 100%;
+  }
+  section {
+    background-size: contain;
+  }
+  .maincontent {
+    margin-left: 0;
+  }
+
+  .pricingtable {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .priceplan {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .plan-button {
+    margin-left: 0;
+  }
+
+  footer {
+    padding: 50px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+  header {
+    padding: 30px 50px;
+  }
+  .start {
+    width: 100%;
+  }
+  section {
+    background-size: contain;
+  }
+
+  .maincontent {
+    margin-left: 0;
+  }
+  .pricingtable {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .priceplan {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .plan-button {
+    margin-left: 0;
+  }
+
+  footer {
+    padding: 50px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
