@@ -1,0 +1,187 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 200px;
+  color: white;
+}
+
+.headline {
+  font-size: 50px;
+}
+.top-link {
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.top-link:hover {
+  color: blue;
+  font-size: 20px;
+  background-color: ;
+}
+.start {
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 9);
+  height: 30px;
+  width: 150px;
+  padding-top: 7px;
+  border: 2px solid orangered;
+  border-radius: 4%;
+  text-align: center;
+}
+.start:hover {
+  cursor: pointer;
+  background-color: rgb(0, 200, 255);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(young-healthy-man-athlete-posing-confident-with-ropes-gym.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.maincontent {
+  margin-left: 150px;
+  color: white;
+}
+
+.price {
+  padding-top: 40px;
+  background-image: url(2ndbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  padding-bottom: 40px;
+}
+.plan {
+  text-align: center;
+
+  color: white;
+}
+.pricingtable {
+  margin-top: 30px;
+  display: flex;
+  justify-content: stretch;
+  align-item: center;
+
+  gap: 20px;
+  padding-right: 20px;
+  width: 100%;
+  min-height: 40vh;
+}
+.priceplan {
+  background-color: rgb(166, 166, 166);
+  margin-left: 20px;
+  flex: 1;
+}
+.priceplan:hover {
+  background-color: rgb(231, 224, 224);
+  margin-left: 20px;
+  border: 5px solid orangered;
+  flex: 1;
+}
+
+.plan-button {
+  background-color: orangered;
+  border: none;
+
+  color: white;
+  margin-left: 50%;
+}
+
+.plan-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.plan-title,
+.plan-price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.price ul {
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+footer {
+  background-image: url(exercise-weights-iron-dumbbell-with-extra-plates.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 70vh;
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+.icons {
+  list-style: none;
+  display: inline-block;
+
+  display: flex;
+  gap: 2px;
+  margin-top: 20px;
+}
+
+footer div ul img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+footer div ul img:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tags {
+  list-style: none;
+  padding-top: 50px;
+  line-height: 40px;
+}
+
+footer div ul a {
+  color: white;
+  text-decoration: none;
+}
+
+footer div ul a:hover {
+  font-size: 20px;
+  color: azure;
+}
+
+.last {
+  background-color: black;
+  color: white;
+}
